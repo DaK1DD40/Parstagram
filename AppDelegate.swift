@@ -20,10 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     $0.server = "https://parseapi.back4app.com/"
             }
             Parse.initialize(with: parseConfig)
-        return true
+        
+        
+        
+            return true
+        
     }
     
-
+    
+    
+    
+    
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
